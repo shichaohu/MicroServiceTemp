@@ -5,17 +5,31 @@ services:
     build: 
         context: /root/MicroServiceTemp/Service/ApiServiceBase
     ports:
-      - 5001:8080
+      - 5001:8080/tcp
+    volummes: 
+    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5001.json:/app/appsetting.json
       
   ms_api2:
     image: microservice.apiservice
     ports:
-      - 5002:8080
+      - 5002:8080/tcp
+    volummes: 
+    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5002.json:/app/appsetting.json
 
   ms_api3:
     image: microservice.apiservice
     ports:
-      - 5003:8080
+      - 5003:8080/tcp
+    volummes: 
+    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5003.json:/app/appsetting.json
+
+  nginx:
+    image: nginx:latest
+    ports: 
+    - 9002:8080/tcp
+    volummes: 
+    - /root/MicroServiceTemp/logs/nginx/:/var/log/nginx/
+    - /root/MicroServiceTemp/configs/nginx.conf:/etc/nginx/nginx.conf
 
 networks:
   frontend:

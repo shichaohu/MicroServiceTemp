@@ -1,3 +1,5 @@
 /Service/ApiServiceBase/bin
 /Service/ApiServiceBase/obj
 /Service/ApiServiceBase/.vs
+/Client/ApiClient/bin
+/Client/ApiClient/obj

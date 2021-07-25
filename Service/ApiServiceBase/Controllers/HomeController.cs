@@ -30,7 +30,8 @@ namespace ApiServiceBase.Controllers
         public IEnumerable<string> Get()
         {
             var rng = new Random();
-            string url = Request.HttpContext.Connection.LocalIpAddress.MapToIPv4().ToString() + ":" + Request.HttpContext.Connection.LocalPort;
+            //string url = Request.HttpContext.Connection.LocalIpAddress.MapToIPv4().ToString() + ":" + Request.HttpContext.Connection.LocalPort;
+            string url = _config["ip"] + ":" + _config["port"];
             return new string[]{ $"home-get {url} "+ rng.Next(-20, 55) };
         }
     }
