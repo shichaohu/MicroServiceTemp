@@ -10,6 +10,7 @@ namespace ApiServiceBase.Controllers
         /// 健康检查地址
         /// </summary>
         /// <returns></returns>
+        [HttpGet]
         public IActionResult Get()
         {
             return Ok();

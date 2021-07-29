@@ -7,29 +7,29 @@ services:
     ports:
       - 5001:8080/tcp
     volumes: 
-    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5001.json:/app/appsetting.json
+        - /root/MicroServiceTemp/configs/ServerConfig/appsettings_5001.json:/root/MicroServiceTemp/Service/ApiServiceBase/appsetting.json
       
   ms_api2:
     image: microservice.apiservice
     ports:
       - 5002:8080/tcp
     volumes: 
-    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5002.json:/app/appsetting.json
+        - /root/MicroServiceTemp/configs/ServerConfig/appsettings_5002.json:/app/appsetting.json
 
   ms_api3:
     image: microservice.apiservice
     ports:
       - 5003:8080/tcp
     volumes: 
-    - /root/MicroServiceTemp/configs/ServerConfig/appsettings.5003.json:/app/appsetting.json
+        - /root/MicroServiceTemp/configs/ServerConfig/appsettings_5003.json:/app/appsetting.json
 
   nginx:
     image: nginx:latest
     ports: 
-    - 9001:8080/tcp
+        - 9001:8080/tcp
     volumes: 
-    - /root/MicroServiceTemp/logs/nginx/:/var/log/nginx/
-    - /root/MicroServiceTemp/configs/nginx.conf:/etc/nginx/nginx.conf
+        - /root/MicroServiceTemp/logs/nginx/:/var/log/nginx/
+        - /root/MicroServiceTemp/configs/nginx.conf:/etc/nginx/nginx.conf
 
 networks:
   frontend:
