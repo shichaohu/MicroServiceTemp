@@ -60,7 +60,7 @@ namespace ApiServiceBase
             });
 
             //consul×¢²á
-            this.Configuration.ConsulRegist();
+            Configuration.RegisterServiceToConsul();
         }
     }
 }

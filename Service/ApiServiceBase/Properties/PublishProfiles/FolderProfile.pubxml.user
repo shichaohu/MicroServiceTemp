@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\project\release\MicroServiceTest\ApiService</_PublishTargetUrl>
+    <History>True|2021-12-28T03:28:58.1426953Z;True|2021-12-28T10:39:29.7395272+08:00;True|2021-12-28T10:28:36.3941996+08:00;True|2021-12-28T10:19:54.9235603+08:00;True|2021-12-27T18:31:17.5732323+08:00;True|2021-12-27T15:05:20.3310362+08:00;</History>
+  </PropertyGroup>
+</Project>

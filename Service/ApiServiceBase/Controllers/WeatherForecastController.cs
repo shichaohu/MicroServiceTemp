@@ -27,6 +27,7 @@ namespace ApiServiceBase.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [Route("GetWeather")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
