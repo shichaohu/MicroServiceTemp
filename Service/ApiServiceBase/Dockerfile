@@ -16,6 +16,21 @@ FROM build AS publish
 RUN dotnet publish "ApiServiceBase.csproj" -c Release -o /app/publish
 
 FROM base AS final
+
+# .NET 6 Set Dump
+# ENV COMPlus_DbgEnableMiniDump=1 
+# ENV COMPlus_DbgMiniDumpType=4	
+# ENV COMPlus_DbgMiniDumpName="/var/dumps/dump.dmp" 
+# ENV COMPlus_CreateDumpDiagnostics=1 
+# ENV COMPlus_EnableCrashReport=1
+
+ENV DOTNET_DbgEnableMiniDump=1 
+ENV DOTNET_DbgMiniDumpType=4	
+# ENV DOTNET_DbgMiniDumpName="/var/dumps/dump.dmp" 
+# ENV DOTNET_CreateDumpDiagnostics=1 
+# ENV DOTNET_EnableCrashReport=1
+
+
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ApiServiceBase.dll"]

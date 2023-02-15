@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X5nrvLgcxAu9QR0YHD5h20ayh+CA9Dorgtm7HN3go/dutUHNMvu+etPQQ3uzrtLzKniCjiHFxVsJ/ULN2ycMAQ==",
+  "dgSpecHash": "qDboLd0unL+AFE8hcIeN+ooZTIV+H0vXxgSoNK6ZVl/rSc/geGlorVRiS4J5GIXHi5QB2Gozgbkzbw14aiDeWQ==",
   "success": true,
   "projectFilePath": "D:\\project\\personal\\MicroServiceTemp\\ConsulClientDemo\\ConsulClientDemo.csproj",
   "expectedPackageFiles": [
@@ -90,5 +90,18 @@
     "C:\\Users\\shichaohu\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\shichaohu\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://172.16.0.251:65270/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.yzw.cn/repository/nuget-hosted'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

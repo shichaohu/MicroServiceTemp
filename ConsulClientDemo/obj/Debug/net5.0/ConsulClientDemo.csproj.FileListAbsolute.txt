@@ -5,7 +5,6 @@ D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulCli
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.runtimeconfig.json
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.runtimeconfig.dev.json
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.dll
-D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ref\ConsulClientDemo.dll
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.pdb
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.Views.dll
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\bin\Debug\net5.0\ConsulClientDemo.Views.pdb
@@ -39,3 +38,4 @@ D:\project\personal\MicroServiceTemp\ConsulClientDemo\obj\Debug\net5.0\ConsulCli
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\obj\Debug\net5.0\ref\ConsulClientDemo.dll
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\obj\Debug\net5.0\ConsulClientDemo.pdb
 D:\project\personal\MicroServiceTemp\ConsulClientDemo\obj\Debug\net5.0\ConsulClientDemo.genruntimeconfig.cache
+D:\project\personal\MicroServiceTemp\ConsulClientDemo\obj\Debug\net5.0\refint\ConsulClientDemo.dll
